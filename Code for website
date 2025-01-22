@@ -1,0 +1,231 @@
+[22/01/2025, 8:52:58 PM] Hiba Syed: i need the code i will make the content myself
+[22/01/2025, 8:52:57 PM] Fatima Idris: One min
+[22/01/2025, 8:53:36 PM] Hiba Syed: and also the website link
+[22/01/2025, 8:53:45 PM] Hiba Syed: so i can record the website too
+[22/01/2025, 9:00:25 PM] Fatima Idris: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowering Disaster Relief</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f2e7; /* Light beige */
+        }
+        header {
+            background-color: #d7a63a; /* Dark yellow */
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .company-name {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.8em;
+            font-weight: 500;
+            color: white;
+            border: 2px solid white;
+            padding: 10px 20px;
+            border-radius: 50%;
+            display: inline-block;
+            text-align: center;
+            margin-right: 20px;
+        }
+        .signup {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .title {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 4em;
+            margin: 20px 0;
+            font-weight: 700;
+        }
+        .subtitle {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3.5em;
+            margin: 20px 0;
+            font-weight: 700;
+        }
+        .intro {
+            background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRnmhH54MlKdANyXDgf4DBGVph6bgYXoxuNUv5wk53rI6yX4BhJ');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+            padding-bottom: 40px;
+        }
+        .explore-btn {
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+            padding: 15px 40px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+        .info-section {
+            background-color: #d7a63a;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 90%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .button {
+            background-color: brown;
+            color: white;
+            padding: 20px 40px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        .news-section {
+            padding: 40px;
+            text-align: center;
+        }
+        .news-row {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .news-box {
+            flex: 1;
+            max-width: 30%;
+            text-align: center;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .news-box img {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-top: 10px;
+        }
+        .news-box h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .news-box a {
+            text-decoration: underline;
+        }
+        .maps {
+            text-align: center;
+            padding: 40px;
+            color: black;
+        }
+        .maps p {
+            margin: 20px auto;
+            color: red;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #d7a63a;
+            color: white;
+            font-size: 0.9em;
+        }
+        .land-cover-image {
+            display: block;
+            margin: 20px auto;
+            width: 80%; /* Consistent size for map */
+            max-width: 800px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: #f5f2e7; /* Matches the website background */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="company-name">Crisis360</div>
+    <nav>
+        <a href="#facilities">Facilities</a>
+        <a href="#donate">Donate</a>
+        <a href="#technology">Technology</a>
+        <a href="#company">Company</a>
+    </nav>
+    <div class="signup">Sign Up</div>
+</header>
+
+<h1 class="title">Empowering Disaster Relief</h1>
+
+<div class="intro">
+    <button class="explore-btn">Explore</button>
+</div>
+
+<div class="info-section">
+    <p>Get real-time updates, live maps, and critical data instantly. Navigate emergencies faster and safer with the Crisis360 Map.</p>
+    <button class="button">View Map</button>
+</div>
+
+<h2 class="subtitle">Breaking News: Recent Disasters</h2>
+
+<div class="news-section">
+    <div class="news-row">
+        <div class="news-box">
+            <h3>Deadly Flash Floods</h3>
+            <a href="#somalia">Read More</a>
+            <img src="https://www.vaticannews.va/content/dam/vaticannews/agenzie/images/afp/2024/12/09/12/1733745188505.jpg/_jcr_content/renditions/cq5dam.thumbnail.cropped.750.422.jpeg" alt="Deadly Flash Floods">
+        </div>
+        <div class="news-box">
+            <h3>2022 Earthquake</h3>
+            <a href="#india">Read More</a>
+            <img src="https://static01.nyt.com/images/2022/12/29/multimedia/22insider-indonesia-quake-1-5dbe/22insider-indonesia-quake-1-5dbe-videoSixteenByNine3000.jpg" alt="2022 Earthquake">
+        </div>
+        <div class="news-box">
+            <h3>Nearly 100 Killed in Java</h3>
+            <a href="#bangladesh">Read More</a>
+            <img src="https://www.aljazeera.com/wp-content/uploads/2025/01/AP25022209570841-1737529293.jpg?resize=770%2C513&quality=80" alt="Nearly 100 Killed in Java">
+        </div>
+    </div>
+</div>
+
+<h2 class="subtitle">The Land We Cover</h2>
+
+<div class="maps">
+    <p>High prone natural disaster areas</p>
+    <img class="land-cover-image" src="file:///C:/Users/user/Downloads/Java%20region%20location%20within%20indonesia%20map%20(1).jpg" alt="Land We Cover Map">
+</div>
+
+<footer>
+    <p>©️ 2025 Crisis360. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
