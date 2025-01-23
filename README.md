@@ -17,6 +17,7 @@ http://localhost:3000
 •	Kimeria, C. (2023). Why drones? 10 good reasons. WeRobotics.https://werobotics.org/blog/why-drones
 •	DIT. (n.d.). Emergency management. Australian Government. https://www.drones.gov.au/benefits-and-use-cases-drones/emergency-management
 •	Сферы применения. (n.d.). https://brlab.ru/scopes/poisk-i-spasenie/
+Chtgpt for the code
 
 
 
