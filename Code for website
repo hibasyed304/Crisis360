@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,10 +12,10 @@
             margin: 0;
             padding: 0;
             color: #333;
-            background-color: #f5f2e7; /* Light beige */
+            background-color: #f5f2e7;
         }
         header {
-            background-color: #d7a63a; /* Dark yellow */
+            background-color: #d7a63a;
             padding: 20px;
             display: flex;
             justify-content: space-between;
@@ -38,9 +38,7 @@
             border: 2px solid white;
             padding: 10px 20px;
             border-radius: 50%;
-            display: inline-block;
             text-align: center;
-            margin-right: 20px;
         }
         .signup {
             background-color: black;
@@ -157,12 +155,12 @@
         .land-cover-image {
             display: block;
             margin: 20px auto;
-            width: 80%; /* Consistent size for map */
+            width: 80%;
             max-width: 800px;
             height: auto;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            background-color: #f5f2e7; /* Matches the website background */
+            background-color: #f5f2e7;
         }
     </style>
 </head>
@@ -196,17 +194,17 @@
     <div class="news-row">
         <div class="news-box">
             <h3>Deadly Flash Floods</h3>
-            <a href="#somalia">Read More</a>
+            <a href="#Java">Read More</a>
             <img src="https://www.vaticannews.va/content/dam/vaticannews/agenzie/images/afp/2024/12/09/12/1733745188505.jpg/_jcr_content/renditions/cq5dam.thumbnail.cropped.750.422.jpeg" alt="Deadly Flash Floods">
         </div>
         <div class="news-box">
             <h3>2022 Earthquake</h3>
-            <a href="#india">Read More</a>
+            <a href="#Jva">Read More</a>
             <img src="https://static01.nyt.com/images/2022/12/29/multimedia/22insider-indonesia-quake-1-5dbe/22insider-indonesia-quake-1-5dbe-videoSixteenByNine3000.jpg" alt="2022 Earthquake">
         </div>
         <div class="news-box">
-            <h3>Nearly 100 Killed in Java</h3>
-            <a href="#bangladesh">Read More</a>
+            <h3>Nearly 100 Died in Java</h3>
+            <a href="#Indonesia">Read More</a>
             <img src="https://www.aljazeera.com/wp-content/uploads/2025/01/AP25022209570841-1737529293.jpg?resize=770%2C513&quality=80" alt="Nearly 100 Killed in Java">
         </div>
     </div>
@@ -215,12 +213,13 @@
 <h2 class="subtitle">The Land We Cover</h2>
 
 <div class="maps">
-    <p>High prone natural disaster areas</p>
+    <p>📍 East Java, Indonesia</p>
     <img class="land-cover-image" src="file:///C:/Users/user/Downloads/Java%20region%20location%20within%20indonesia%20map%20(1).jpg" alt="Land We Cover Map">
 </div>
 
 <footer>
-    <p>©️ 2025 Crisis360. All rights reserved.</p>
+    <p>&copy; 2025 Crisis360.
+        Contact us: +912345678, info@edu.com</p>
 </footer>
 
 </body>
